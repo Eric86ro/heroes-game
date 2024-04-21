@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heroes Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Heroes Game</h1>
+      <div class="btns-container">
+        <button class="btn" id="show-heroes">Show Heroes</button>
+        <button class="btn start-fight" id="start-fight">Start Fight</button>
+      </div>
+      <div class="heroes-container">
+        <div class="hero-container">
+          <div class="hero-avatar dwarf"></div>
+          <div class="hero-details">
+            <span class="hero-name">Dwarf</span>
+            <span>Life: 20 hp</span>
+            <span>Level: 30</span>
+            <span>Health: 80%</span>
+          </div>
+        </div>
+        <div class="hero-container">
+          <div class="hero-avatar sprite"></div>
+          <div class="hero-details">
+            <span class="hero-name">Sprite</span>
+            <span>Life: 30 hp</span>
+            <span>Level: 40</span>
+            <span>Health: 90%</span>
+          </div>
+        </div>
+        <div class="hero-container">
+          <div class="hero-avatar dragon"></div>
+          <div class="hero-details">
+            <span class="hero-name">Dragon</span>
+            <span>Life: 40 hp</span>
+            <span>Level: 50</span>
+            <span>Health: 100%</span>
+          </div>
+        </div>
+      </div>
+      <div class="show-winner" id="show-winner"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
